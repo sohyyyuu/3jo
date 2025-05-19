@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="/base.css" rel="stylesheet">
+    <link href="/main.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <!-- 사이트 메인 로고 -->
+    <header>
+        <h1>LOGO</h1>
+    </header>
+
+    <!-- 상단 네비게이션 메뉴 -->
+    <nav>
+        <a href="#">구독진단</a>
+        <a href="#">테마투표</a>
+        <a href="#">콘텐츠톡</a>
+        <a href="#">마이페이지</a>
+    </nav>
+
+    <!-- 메인 상단 구성 -->
+    <section class="main-top">
+
+        <!-- 메인 상단 좌측 박스 -->
+        <div class="top-left-box">
+            <p>더 나은 콘텐츠 경험을 위한 OTT 플랫폼 추천,<br>지금 시작해보세요.</p>
+            <button>나에게 맞는 OTT 플랫폼 찾기</button>
+        </div>
+
+        <!-- 메인 상단 우측 박스 -->
+        <div class="top-right-box">
+            <p>아직 회원이 아니신가요?<br>비회원으로도 일부 기능을 체험해보세요!</p>
+            <button onclick="location.href='login.html'">로그인</button>
+        </div>
+    </section>
+
+    <!-- 메인 중앙 구성 -->
+    <section class="main-middle">
+
+        <!-- 메인에서 투표게시판으로 가는 화면 -->
+        <div class="middle-top-box">
+            <h4>투표가 만드는 오늘의 순위</h4>
+            <h2>"혼자 있을 때 즐겨보는 작품은?"</h2>
+            <p>지금까지 ????명이 참여했습니다</p>
+        </div>
+
+
+        <div class="middle-flex">
+
+            <!-- 투표게시판에 들어갈 사진 -->
+
+            <div class="middle-image">
+                <img src="space.jfif">
+                <p>작품명</p>
+            </div>
+            <div class="middle-image">
+                <img src="space.jfif">
+                <p>작품명</p>
+            </div>
+            <div class="middle-image">
+                <img src="space.jfif">
+                <p>작품명</p>
+            </div>
+
+            <!-- 투표하러 가기 -->
+            <div class="middle-right">
+                <p class="info">현재 순위에 오른 콘텐츠 일부입니다<br>지금 투표하고 전체 순위 확인하세요!</p>
+                <button>투표하러 가기</button>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <!-- 메인 하단 구성 -->
+    <div class="section-bottom">
+        <div class="bottom-top-box">
+            <div class="bottom-top-box-left">
+                <h5>요즘 나의 패턴</h5>
+                <p>최근 2주간 찜한 콘텐츠 수: 7편<br>가장 많이 본 요일:수요일</p>
+            </div>
+            <div class="bottom-top-box-right">
+                <h5>내가 종아하는 장르는?</h5>
+                <p>"xxx님은 스릴러 장르를 자주 찜하고 있어요!"</p>
+            </div>
+        </div>
+
+        <div class="ott-box">
+            <p><strong>(닉네임)님과 잘 맞는 OTT는 "넷플릭스"입니다!</strong></p>
+        </div>
+        <!-- 하단 회원전용 콘텐츠 추천 -->
+        <div class="bottom">
+
+            <!-- 맞춤형 추천 (좌측)-->
+            <div class="bottom-middle-box">
+                <h3>(닉네임)님을 위한 콘텐츠 추천</h3>
+                <P>넷플릭스에서 즐길 수 있는 xxx님 맞춤 콘텐츠 TOP 3</P>
+                <div class="bottom-flex">
+                    <div class="bottom-image">
+                        <img src="space.jfif">
+                        <p>작품명</p>
+                    </div>
+                    <div class="bottom-image">
+                        <img src="space.jfif">
+                        <p>작품명</p>
+                    </div>
+                    <div class="bottom-image">
+                        <img src="space.jfif">
+                        <p>작품명</p>
+                    </div>
+                </div>
+                <button>맞춤형 추천 더보기</button>
+            </div>
+
+            <!-- 비슷한 사용자 추천 (우측)-->
+            <div class="bottom-middle-box">
+                <h3>비슷한 사용자들이 좋아한 콘텐츠</h3>
+                <P>비슷한 사용자들의 실시간 선택 TOP 3</P>
+                <div class="bottom-flex">
+                    <div class="bottom-image">
+                        <img src="space.jfif">
+                        <p>작품명</p>
+                    </div>
+                    <div class="bottom-image">
+                        <img src="space.jfif">
+                        <p>작품명</p>
+                    </div>
+                    <div class="bottom-image">
+                        <img src="space.jfif">
+                        <p>작품명</p>
+                    </div>
+                </div>
+                <button>비슷한 사용자 추천 더보기</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- 메인 최하단 화면 구성 -->
+    <footer>
+        <ul>
+            <li><a href="#">회사소개</a></li>
+            <li>|</li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li>|</li>
+            <li><a href="#">이용약관</a></li>
+            <li>|</li>
+            <li><a href="#">청소년보호방침</a></li>
+            <li>|</li>
+            <li><a href="#">광고신청</a></li>
+        </ul>
+        <div class="footer-info">
+            <div class="footer-left">
+                <p>(주) xxxxxx </p>
+                <p style="font-size: 20px;">1500-1500</p>
+            </div>
+            <div class="footer-right">
+                <p>대표자: xxx | 서울특별시 xxx구 xxx동 | 사업자 등록번호: xxx-xx-xxxx
+                    <br>통신판매업 신고번호:2022-서울중구-xxxx호 개인정보보호책임자:xxx
+                    <br>소비자피해보상보험
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>
