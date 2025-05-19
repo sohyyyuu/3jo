@@ -1,0 +1,96 @@
+/************* 콘텐츠 정보 팝업  ***********/
+/* 팝업 기본값 */
+.popup-container {
+    width: 1200px;
+    height: 950px;
+    margin: 50px auto;
+    background-color: var(--popup-bg-color);
+    border-radius: 40px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    color: black;
+    /* display: none; */
+    /* 팝업 노출 여부 */
+}
+/* 닫기 버튼 */
+.close-btn {
+    position: absolute;
+    font-size: 30px; /* 아이콘으로 변경? */
+    right: 40px;
+    top: 30px;
+}
+/* 제목(콘텐츠명) */
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 30px 0px 50px 0px;
+}
+/* 본문 */
+.content-area {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+/* 우측 */
+.left-section {
+    width: 35%;
+    height: 400px;
+    /*  */
+}
+/************ 좌측 *********/
+/* 포스터 이미지 */
+#poster {
+    width: 400px;
+    height: 550px;
+    margin: 10px 0 20px 0;
+}
+/* 선호도 표시*/
+.preference-bar {
+    display: flex;
+    align-items: center;
+    margin: 15px 0 10px 0; 
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+.bar {
+    height: 20px;
+    width: 70%;
+    background-color: var(--bt-bg-color);
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/* 콘텐츠 시청 가능한 OTT플랫폼 */
+.platforms {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.platforms img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+/* 콘텐츠 정보란 */
+.right-section {
+    width: 55%;
+    height:650px;
+    background-color: #757373;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+/* 찜 버튼 */
+.like-btn {
+    /* display: flex; */
+    /* flex-direction: row-reverse;  */
+    margin: 20px 0 0 720px; /* 임시 */
+    border: none;
+    background-color: var(--bt-bg-color);
+    border-radius: 10px;
+    
+}

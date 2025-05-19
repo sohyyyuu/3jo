@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>콘텐츠 정보 팝업</title>
+    <!-- 공통 스타일 -->
+    <link rel="stylesheet" href="./base.css">
+    
+    <!-- 정보 팝업 스타일 -->
+    <link rel="stylesheet" href="./info_popup.css">
+</head>
+
+<body>
+    <!-- 콘텐츠 정보 팝업 -->
+    <div class="popup-container">
+        <!-- 나가기 버튼 -->
+        <div class="close-btn">X</div>
+        <!-- 제목 -->
+        <div class="title">콘텐츠명</div>
+
+        <div class="content-area">
+            <!-- 좌측  -->
+            <div class="left-section">
+                <div class="preference-bar">
+                    <label>선호도</label>
+                    <div class="bar"></div>
+                    <span>85%</span>
+                </div>
+                <img id="poster" src="./image/파과 포스터.jpg" alt="poster image">
+                <div class="platforms">
+                    <img src="netflix_logo.png" alt="Netflix" />
+                    <img src="tv_logo.png" alt="TV" />
+                </div>
+            </div>
+            <!-- 우측 -->
+            <div class="right-section">
+                <p>콘텐츠 정보<br>여기에 텍스트 입력, 300자 이내</p>
+            </div>
+        </div>
+        <button class="like-btn">찜하기</button>
+    </div>
+</body>
+
+</html>
